@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AdaptWidget
 //
-//  Created by Quentin Mazars Simon on 10/7/22.
+//  Created by Quentin Mazars-Simon on 10/7/22.
 //
 
 import SwiftUI
