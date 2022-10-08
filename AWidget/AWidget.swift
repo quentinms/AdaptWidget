@@ -310,7 +310,7 @@ struct AWidgetEntryView : View {
                 Spacer()
                 VStack(alignment: .trailing) {
                     HStack {
-                        Text("Prochain").font(Font.headline)
+                        Text(String(localized: "next_low_label").capitalized(with: Locale.current)).font(Font.headline)
                         Image(systemName: entry.nextLow!.imageName).foregroundColor(entry.nextLow!.imageTint)
                     }
                     Text(entry.nextLow!.data.date, format:Date.FormatStyle().weekday().day().hour()).font(Font.subheadline)
@@ -342,7 +342,7 @@ struct AWidgetEntryView : View {
             }
             VStack {
                 HStack {
-                    Text("Prochain").bold()
+                    Text(String(localized: "next_low_label").capitalized(with: Locale.current)).bold()
                     Image(systemName: entry.nextLow!.imageName).foregroundColor(entry.nextLow!.imageTint)
                 }
                 Text(entry.nextLow!.data.date, format:Date.FormatStyle().weekday().day().hour())
