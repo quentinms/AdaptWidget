@@ -3,17 +3,141 @@
 <plist version="1.0">
 <dict>
 	<key>INEnums</key>
-	<array/>
+	<array>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Locations</string>
+			<key>INEnumDisplayNameID</key>
+			<string>B4W8qh</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>Enum</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Défaut</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>pBXo3h</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Austria</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>9yZKG7</string>
+					<key>INEnumValueIndex</key>
+					<integer>4</integer>
+					<key>INEnumValueName</key>
+					<string>at</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Belgium</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>7MQKX2</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>be</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Germany</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>DfiHEy</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>de</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>France continentale</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>uVoLBN</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>fr</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Italia</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>Cg2Lp8</string>
+					<key>INEnumValueIndex</key>
+					<integer>5</integer>
+					<key>INEnumValueName</key>
+					<string>it</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Netherlands</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>HAcMi7</string>
+					<key>INEnumValueIndex</key>
+					<integer>6</integer>
+					<key>INEnumValueName</key>
+					<string>nl</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Spain</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>nAqILb</string>
+					<key>INEnumValueIndex</key>
+					<integer>7</integer>
+					<key>INEnumValueName</key>
+					<string>es</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Switzerland</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>fboxZa</string>
+					<key>INEnumValueIndex</key>
+					<integer>8</integer>
+					<key>INEnumValueName</key>
+					<string>ch</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Guadeloupe</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>S557Ti</string>
+					<key>INEnumValueIndex</key>
+					<integer>9</integer>
+					<key>INEnumValueName</key>
+					<string>gp</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>United Kingdom</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>6Sm3Ba</string>
+					<key>INEnumValueIndex</key>
+					<integer>10</integer>
+					<key>INEnumValueName</key>
+					<string>uk</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
 	<string>88xZPY</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>20A294</string>
+	<string>21G115</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>12A6144</string>
+	<string>14A400</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>12.0</string>
+	<string>14.0.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -25,8 +149,77 @@
 			<true/>
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
+			<key>INIntentLastParameterTag</key>
+			<integer>4</integer>
 			<key>INIntentName</key>
 			<string>Configuration</string>
+			<key>INIntentParameters</key>
+			<array>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Location</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>07DYG2</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>1</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>Enum</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>88xZPY</string>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataDefaultValue</key>
+						<string>fr</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>Location</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${Location}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>yXH9Rd</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${Location}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>bduWeo</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>4</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
+				</dict>
+			</array>
 			<key>INIntentResponse</key>
 			<dict>
 				<key>INIntentResponseCodes</key>

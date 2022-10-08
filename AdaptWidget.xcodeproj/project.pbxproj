@@ -64,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE4E56BB28F19E34001B0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE4E56BC28F1AF6C001B0202 /* AWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AWidgetExtension.entitlements; sourceTree = "<group>"; };
 		FE9C68C628F02B630090F039 /* AdaptWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9C68C928F02B630090F039 /* AdaptWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptWidgetApp.swift; sourceTree = "<group>"; };
 		FE9C68CB28F02B630090F039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		FE9C68BD28F02B630090F039 = {
 			isa = PBXGroup;
 			children = (
+				FE4E56BC28F1AF6C001B0202 /* AWidgetExtension.entitlements */,
 				FE9C68C828F02B630090F039 /* AdaptWidget */,
 				FE9C68DE28F02B670090F039 /* AdaptWidgetTests */,
 				FE9C68E828F02B670090F039 /* AdaptWidgetUITests */,
@@ -145,6 +148,7 @@
 		FE9C68C828F02B630090F039 /* AdaptWidget */ = {
 			isa = PBXGroup;
 			children = (
+				FE4E56BB28F19E34001B0202 /* Info.plist */,
 				FE9C68C928F02B630090F039 /* AdaptWidgetApp.swift */,
 				FE9C68CB28F02B630090F039 /* ContentView.swift */,
 				FE9C68CD28F02B660090F039 /* Assets.xcassets */,
@@ -307,6 +311,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 				Base,
 			);
 			mainGroup = FE9C68BD28F02B630090F039;
@@ -542,6 +547,7 @@
 				DEVELOPMENT_TEAM = X88XYVG65N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdaptWidget/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -573,6 +579,7 @@
 				DEVELOPMENT_TEAM = X88XYVG65N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdaptWidget/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -673,6 +680,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X88XYVG65N;
@@ -690,6 +698,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sh.adapt.AdaptWidget.AWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -701,6 +710,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X88XYVG65N;
@@ -718,6 +728,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sh.adapt.AdaptWidget.AWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
